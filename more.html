@@ -473,6 +473,20 @@
 
         <h2 class="my-5 h3 text-center", style="font-size: 30pt;">Missing Data</h2>
         
+        <div style="padding-top: 30pt;">
+          <h5 class="notosanskr text-center" style="font-size: 18pt; 
+          font-weight: 600; padding-bottom: 30px;">버스 이용량 데이터 != 버스 노선 시각화 데이터 </h5><br>
+          <p class="notosanskr text-center" style=" font-style: italic;">
+            노선 이용량과 같은 <strong>count를 기반으로 한 시각화 및 분석에 존재</strong>하는 버스노선과 정류장 데이터는<br>
+          <strong>노선을 시각화 하기 위한 매핑 테이블에 존재하지 않았</strong>습니다. <br><br>
+
+            예시) <strong>708번 버스</strong> - TripChain.csv 내 이용객이 어떤 버스 노선을 이용했는지 알 수 있는 <br> 
+            RouteStationMapping.csv 에는 존재함. 즉, <strong>708번 노선을 탄 이용객은 존재함</strong>을 알 수 있음.<br>
+            하지만 RouteStationInfo.csv 내 708번 버스 노선ID가 존재하지 않아 <strong>708번 노선을 시각화 할 수는 없음.</strong>
+             
+          </p><br><br><br><br>
+      </div>
+
 
         <div style="padding-top: 30pt;">
             <h5 class="notosanskr text-center" style="font-size: 18pt; font-weight: 600; padding-bottom: 30px;">버스정류장 데이터</h5><br>
